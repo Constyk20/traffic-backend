@@ -1,0 +1,602 @@
+2025-10-04 20:54:59,595 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-04 20:54:59,596 - INFO - Special event detected: rain (multiplier: 1.79)
+2025-10-04 20:55:29,829 - INFO - Special event detected: accident (multiplier: 2.27)
+2025-10-04 20:57:00,554 - INFO - Special event detected: road_work (multiplier: 1.59)
+2025-10-04 20:57:30,723 - INFO - Special event detected: road_work (multiplier: 1.95)
+2025-10-04 20:58:00,899 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-04 20:59:25,146 - INFO -    Total Requests: 9
+2025-10-04 20:59:25,147 - INFO -    Successful: 9 (100.0%)
+2025-10-04 20:59:25,148 - INFO -    Failed: 0
+2025-10-04 20:59:25,148 - INFO -    Last Success: 19:59:01
+2025-10-04 20:59:59,369 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-04 21:01:04,480 - INFO - Special event detected: rain (multiplier: 1.57)
+2025-10-04 21:01:04,485 - INFO - Special event detected: road_work (multiplier: 1.98)
+2025-10-04 21:01:04,488 - INFO - Special event detected: accident (multiplier: 2.21)
+2025-10-04 21:01:35,824 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-04 21:02:07,544 - INFO -    Total Requests: 40
+2025-10-04 21:02:07,545 - INFO -    Successful: 40 (100.0%)
+2025-10-04 21:02:07,545 - INFO -    Failed: 0
+2025-10-04 21:02:07,545 - INFO -    Locations: 8
+2025-10-04 21:02:07,545 - INFO -    Last Success: 20:02:07
+2025-10-04 21:02:37,572 - INFO - Special event detected: rain (multiplier: 1.76)
+2025-10-04 21:02:37,574 - INFO - Special event detected: accident (multiplier: 2.33)
+2025-10-04 21:02:37,583 - INFO - Special event detected: accident (multiplier: 2.30)
+2025-10-04 21:02:37,584 - INFO - Special event detected: rain (multiplier: 1.41)
+2025-10-04 21:03:38,178 - INFO - Special event detected: rain (multiplier: 1.64)
+2025-10-04 21:04:08,791 - INFO - Special event detected: rain (multiplier: 1.79)
+2025-10-04 21:04:08,800 - INFO - Special event detected: accident (multiplier: 2.16)
+2025-10-04 21:04:08,815 - INFO - Special event detected: rain (multiplier: 1.53)
+2025-10-04 21:04:39,225 - INFO - Special event detected: road_work (multiplier: 1.79)
+2025-10-04 21:04:39,227 - INFO - Special event detected: rain (multiplier: 1.37)
+2025-10-04 21:04:39,233 - INFO - Special event detected: road_work (multiplier: 1.53)
+2025-10-04 21:04:39,491 - INFO -    Total Requests: 80
+2025-10-04 21:04:39,492 - INFO -    Successful: 80 (100.0%)
+2025-10-04 21:04:39,492 - INFO -    Failed: 0
+2025-10-04 21:04:39,492 - INFO -    Locations: 8
+2025-10-04 21:04:39,492 - INFO -    Last Success: 20:04:39
+2025-10-04 21:05:09,521 - INFO - Special event detected: rain (multiplier: 1.49)
+2025-10-04 21:05:39,777 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-04 21:05:39,781 - INFO - Special event detected: event (multiplier: 2.07)
+2025-10-04 21:05:39,785 - INFO - Special event detected: event (multiplier: 2.18)
+2025-10-04 21:05:39,789 - INFO - Special event detected: rain (multiplier: 1.43)
+2025-10-04 21:06:40,391 - INFO - Special event detected: accident (multiplier: 2.04)
+2025-10-04 21:06:40,394 - INFO - Special event detected: accident (multiplier: 2.87)
+2025-10-04 21:07:10,683 - INFO - Special event detected: accident (multiplier: 2.76)
+2025-10-04 21:07:10,937 - INFO -    Total Requests: 120
+2025-10-04 21:07:10,938 - INFO -    Successful: 120 (100.0%)
+2025-10-04 21:07:10,938 - INFO -    Failed: 0
+2025-10-04 21:07:10,939 - INFO -    Locations: 8
+2025-10-04 21:07:10,939 - INFO -    Last Success: 20:07:10
+2025-10-04 21:07:40,980 - INFO - Special event detected: accident (multiplier: 2.37)
+2025-10-04 21:08:41,558 - INFO - Special event detected: accident (multiplier: 2.06)
+2025-10-04 21:09:11,833 - INFO - Special event detected: accident (multiplier: 2.24)
+2025-10-04 21:09:42,069 - INFO - Special event detected: accident (multiplier: 2.60)
+2025-10-04 21:09:42,075 - INFO - Special event detected: rain (multiplier: 1.36)
+2025-10-04 21:09:42,439 - INFO -    Total Requests: 160
+2025-10-04 21:09:42,440 - INFO -    Successful: 160 (100.0%)
+2025-10-04 21:09:42,440 - INFO -    Failed: 0
+2025-10-04 21:09:42,440 - INFO -    Locations: 8
+2025-10-04 21:09:42,440 - INFO -    Last Success: 20:09:42
+2025-10-04 21:10:12,462 - INFO - Special event detected: accident (multiplier: 2.37)
+2025-10-04 21:10:12,474 - INFO - Special event detected: road_work (multiplier: 1.89)
+2025-10-04 21:10:42,848 - INFO - Special event detected: accident (multiplier: 2.72)
+2025-10-04 21:10:42,848 - INFO - Special event detected: rain (multiplier: 1.33)
+2025-10-04 21:11:13,194 - INFO - Special event detected: rain (multiplier: 1.61)
+2025-10-04 21:12:13,837 - INFO - Special event detected: rain (multiplier: 1.59)
+2025-10-04 21:12:14,190 - INFO -    Total Requests: 200
+2025-10-04 21:12:14,190 - INFO -    Successful: 200 (100.0%)
+2025-10-04 21:12:14,190 - INFO -    Failed: 0
+2025-10-04 21:12:14,191 - INFO -    Locations: 8
+2025-10-04 21:12:14,194 - INFO -    Last Success: 20:12:14
+2025-10-04 21:12:44,273 - INFO - Special event detected: rain (multiplier: 1.70)
+2025-10-04 21:12:44,274 - INFO - Special event detected: rain (multiplier: 1.69)
+2025-10-04 21:12:44,293 - INFO - Special event detected: accident (multiplier: 2.02)
+2025-10-04 21:12:44,307 - INFO - Special event detected: rain (multiplier: 1.40)
+2025-10-04 21:13:14,603 - INFO - Special event detected: rain (multiplier: 1.51)
+2025-10-04 21:13:44,885 - INFO - Special event detected: road_work (multiplier: 1.94)
+2025-10-04 21:13:44,898 - INFO - Special event detected: accident (multiplier: 2.54)
+2025-10-04 21:14:15,255 - INFO - Special event detected: road_work (multiplier: 1.57)
+2025-10-04 21:14:46,991 - INFO - Special event detected: accident (multiplier: 2.18)
+2025-10-04 21:14:46,996 - INFO - Special event detected: accident (multiplier: 2.84)
+2025-10-04 21:14:47,221 - INFO -    Total Requests: 240
+2025-10-04 21:14:47,222 - INFO -    Successful: 240 (100.0%)
+2025-10-04 21:14:47,223 - INFO -    Failed: 0
+2025-10-04 21:14:47,224 - INFO -    Locations: 8
+2025-10-04 21:14:47,225 - INFO -    Last Success: 20:14:47
+2025-10-04 21:15:47,510 - INFO - Special event detected: rain (multiplier: 1.49)
+2025-10-04 21:16:17,972 - INFO - Special event detected: road_work (multiplier: 1.81)
+2025-10-04 21:16:17,975 - INFO - Special event detected: rain (multiplier: 1.37)
+2025-10-04 21:17:18,906 - INFO - Special event detected: rain (multiplier: 1.53)
+2025-10-04 21:17:19,195 - INFO -    Total Requests: 280
+2025-10-04 21:17:19,196 - INFO -    Successful: 280 (100.0%)
+2025-10-04 21:17:19,196 - INFO -    Failed: 0
+2025-10-04 21:17:19,196 - INFO -    Locations: 8
+2025-10-04 21:17:19,196 - INFO -    Last Success: 20:17:19
+2025-10-04 21:17:49,235 - INFO - Special event detected: rain (multiplier: 1.51)
+2025-10-04 21:17:49,245 - INFO - Special event detected: accident (multiplier: 2.10)
+2025-10-04 21:18:49,784 - INFO - Special event detected: rain (multiplier: 1.52)
+2025-10-04 21:19:20,020 - INFO - Special event detected: accident (multiplier: 2.58)
+2025-10-04 21:19:50,599 - INFO -    Total Requests: 320
+2025-10-04 21:19:50,599 - INFO -    Successful: 320 (100.0%)
+2025-10-04 21:19:50,599 - INFO -    Failed: 0
+2025-10-04 21:19:50,599 - INFO -    Locations: 8
+2025-10-04 21:19:50,599 - INFO -    Last Success: 20:19:50
+2025-10-04 21:20:20,667 - INFO - Special event detected: event (multiplier: 2.02)
+2025-10-04 21:20:20,669 - INFO - Special event detected: road_work (multiplier: 1.70)
+2025-10-04 21:21:21,304 - INFO - Special event detected: accident (multiplier: 2.56)
+2025-10-04 21:21:21,314 - INFO - Special event detected: accident (multiplier: 2.76)
+2025-10-04 21:22:21,945 - INFO - Special event detected: rain (multiplier: 1.43)
+2025-10-04 21:22:21,949 - INFO - Special event detected: rain (multiplier: 1.33)
+2025-10-04 21:22:22,183 - INFO -    Total Requests: 360
+2025-10-04 21:22:22,183 - INFO -    Successful: 360 (100.0%)
+2025-10-04 21:22:22,183 - INFO -    Failed: 0
+2025-10-04 21:22:22,183 - INFO -    Locations: 8
+2025-10-04 21:22:22,184 - INFO -    Last Success: 20:22:22
+2025-10-04 21:22:52,389 - INFO - Special event detected: rain (multiplier: 1.62)
+2025-10-04 21:22:52,392 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-04 21:23:22,706 - INFO - Special event detected: road_work (multiplier: 1.60)
+2025-10-04 21:23:22,707 - INFO - Special event detected: event (multiplier: 1.89)
+2025-10-04 21:23:52,944 - INFO - Special event detected: road_work (multiplier: 1.58)
+2025-10-04 21:23:52,944 - INFO - Special event detected: rain (multiplier: 1.63)
+2025-10-04 21:23:52,946 - INFO - Special event detected: accident (multiplier: 2.75)
+2025-10-04 21:24:53,468 - INFO - Special event detected: road_work (multiplier: 1.83)
+2025-10-04 21:24:53,471 - INFO - Special event detected: accident (multiplier: 2.67)
+2025-10-04 21:24:53,715 - INFO -    Total Requests: 400
+2025-10-04 21:24:53,716 - INFO -    Successful: 400 (100.0%)
+2025-10-04 21:24:53,716 - INFO -    Failed: 0
+2025-10-04 21:24:53,716 - INFO -    Locations: 8
+2025-10-04 21:24:53,716 - INFO -    Last Success: 20:24:53
+2025-10-04 21:25:23,740 - INFO - Special event detected: road_work (multiplier: 1.97)
+2025-10-04 21:25:23,741 - INFO - Special event detected: event (multiplier: 2.28)
+2025-10-04 21:25:23,747 - INFO - Special event detected: event (multiplier: 2.48)
+2025-10-04 21:25:54,094 - INFO - Special event detected: road_work (multiplier: 1.86)
+2025-10-04 21:26:54,615 - INFO - Special event detected: road_work (multiplier: 1.90)
+2025-10-04 21:27:24,924 - INFO - Special event detected: accident (multiplier: 2.59)
+2025-10-04 21:27:25,176 - INFO -    Total Requests: 440
+2025-10-04 21:27:25,176 - INFO -    Successful: 440 (100.0%)
+2025-10-04 21:27:25,176 - INFO -    Failed: 0
+2025-10-04 21:27:25,176 - INFO -    Locations: 8
+2025-10-04 21:27:25,177 - INFO -    Last Success: 20:27:25
+2025-10-04 21:28:25,476 - INFO - Special event detected: rain (multiplier: 1.73)
+2025-10-04 21:28:25,476 - INFO - Special event detected: road_work (multiplier: 1.54)
+2025-10-04 21:28:25,483 - INFO - Special event detected: rain (multiplier: 1.74)
+2025-10-04 21:28:25,496 - INFO - Special event detected: road_work (multiplier: 1.62)
+2025-10-04 21:28:55,797 - INFO - Special event detected: rain (multiplier: 1.54)
+2025-10-04 21:28:55,808 - INFO - Special event detected: rain (multiplier: 1.43)
+2025-10-04 21:29:26,187 - INFO - Special event detected: rain (multiplier: 1.59)
+2025-10-04 21:29:26,189 - INFO - Special event detected: rain (multiplier: 1.72)
+2025-10-04 21:29:56,412 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-04 21:29:56,415 - INFO - Special event detected: event (multiplier: 2.07)
+2025-10-04 21:29:56,416 - INFO - Special event detected: rain (multiplier: 1.35)
+2025-10-04 21:29:56,420 - INFO - Special event detected: event (multiplier: 2.04)
+2025-10-04 21:29:56,660 - INFO -    Total Requests: 480
+2025-10-04 21:29:56,661 - INFO -    Successful: 480 (100.0%)
+2025-10-04 21:29:56,661 - INFO -    Failed: 0
+2025-10-04 21:29:56,661 - INFO -    Locations: 8
+2025-10-04 21:29:56,661 - INFO -    Last Success: 20:29:56
+2025-10-04 21:30:26,689 - INFO - Special event detected: accident (multiplier: 2.58)
+2025-10-04 21:30:57,117 - INFO - Special event detected: accident (multiplier: 2.64)
+2025-10-04 21:31:27,659 - INFO - Special event detected: rain (multiplier: 1.30)
+2025-10-04 21:32:28,318 - INFO - Special event detected: accident (multiplier: 2.34)
+2025-10-04 21:32:28,569 - INFO -    Total Requests: 520
+2025-10-04 21:32:28,569 - INFO -    Successful: 520 (100.0%)
+2025-10-04 21:32:28,570 - INFO -    Failed: 0
+2025-10-04 21:32:28,570 - INFO -    Locations: 8
+2025-10-04 21:32:28,570 - INFO -    Last Success: 20:32:28
+2025-10-04 21:32:58,591 - INFO - Special event detected: rain (multiplier: 1.30)
+2025-10-04 21:32:58,601 - INFO - Special event detected: rain (multiplier: 1.54)
+2025-10-04 21:33:28,863 - INFO - Special event detected: event (multiplier: 2.48)
+2025-10-04 21:33:28,868 - INFO - Special event detected: event (multiplier: 2.28)
+2025-10-04 21:33:59,132 - INFO - Special event detected: road_work (multiplier: 1.71)
+2025-10-04 21:34:42,211 - INFO - Special event detected: event (multiplier: 2.38)
+2025-10-04 21:35:12,498 - INFO - Special event detected: rain (multiplier: 1.71)
+2025-10-04 21:35:12,500 - INFO - Special event detected: accident (multiplier: 2.03)
+2025-10-04 21:35:12,502 - INFO - Special event detected: event (multiplier: 2.07)
+2025-10-04 21:35:48,861 - INFO -    Total Requests: 584
+2025-10-04 21:35:48,862 - INFO -    Successful: 552 (94.5%)
+2025-10-04 21:35:48,862 - INFO -    Failed: 8
+2025-10-04 21:35:48,862 - INFO -    Locations: 8
+2025-10-04 21:35:48,862 - INFO -    Last Success: 20:34:42
+2025-10-04 21:38:59,733 - INFO -    Total Requests: 640
+2025-10-04 21:38:59,734 - INFO -    Successful: 584 (91.2%)
+2025-10-04 21:38:59,734 - INFO -    Failed: 16
+2025-10-04 21:38:59,734 - INFO -    Locations: 8
+2025-10-04 21:38:59,735 - INFO -    Last Success: 20:38:59
+2025-10-04 21:40:00,016 - INFO - Special event detected: rain (multiplier: 1.68)
+2025-10-04 21:40:00,018 - INFO - Special event detected: rain (multiplier: 1.63)
+2025-10-04 21:40:00,039 - INFO - Special event detected: event (multiplier: 2.50)
+2025-10-04 21:41:00,857 - INFO - Special event detected: rain (multiplier: 1.75)
+2025-10-04 21:41:31,504 - INFO - Special event detected: road_work (multiplier: 1.74)
+2025-10-04 21:41:31,505 - INFO - Special event detected: rain (multiplier: 1.77)
+2025-10-04 21:41:31,510 - INFO - Special event detected: event (multiplier: 1.85)
+2025-10-04 21:41:31,930 - INFO -    Total Requests: 680
+2025-10-04 21:41:31,930 - INFO -    Successful: 624 (91.8%)
+2025-10-04 21:41:31,930 - INFO -    Failed: 16
+2025-10-04 21:41:31,931 - INFO -    Locations: 8
+2025-10-04 21:41:31,931 - INFO -    Last Success: 20:41:31
+2025-10-04 21:42:01,962 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-04 21:42:01,965 - INFO - Special event detected: rain (multiplier: 1.47)
+2025-10-04 21:42:32,191 - INFO - Special event detected: rain (multiplier: 1.76)
+2025-10-04 21:43:02,543 - INFO - Special event detected: accident (multiplier: 2.72)
+2025-10-04 21:43:02,546 - INFO - Special event detected: rain (multiplier: 1.39)
+2025-10-04 21:43:02,551 - INFO - Special event detected: rain (multiplier: 1.66)
+2025-10-04 21:43:02,560 - INFO - Special event detected: accident (multiplier: 2.93)
+2025-10-04 21:43:33,073 - INFO - Special event detected: rain (multiplier: 1.61)
+2025-10-04 21:44:03,360 - INFO - Special event detected: rain (multiplier: 1.32)
+2025-10-04 21:44:03,618 - INFO -    Total Requests: 720
+2025-10-04 21:44:03,618 - INFO -    Successful: 664 (92.2%)
+2025-10-04 21:44:03,619 - INFO -    Failed: 16
+2025-10-04 21:44:03,619 - INFO -    Locations: 8
+2025-10-04 21:44:03,619 - INFO -    Last Success: 20:44:03
+2025-10-04 21:45:03,964 - INFO - Special event detected: rain (multiplier: 1.48)
+2025-10-04 21:45:03,969 - INFO - Special event detected: rain (multiplier: 1.42)
+2025-10-04 21:45:03,974 - INFO - Special event detected: rain (multiplier: 1.34)
+2025-10-04 21:45:34,315 - INFO - Special event detected: event (multiplier: 1.99)
+2025-10-04 21:45:34,319 - INFO - Special event detected: accident (multiplier: 2.56)
+2025-10-04 21:46:04,633 - INFO - Special event detected: accident (multiplier: 2.38)
+2025-10-04 21:46:34,971 - INFO - Special event detected: accident (multiplier: 2.43)
+2025-10-04 21:46:34,971 - INFO - Special event detected: rain (multiplier: 1.50)
+2025-10-04 21:46:34,982 - INFO - Special event detected: accident (multiplier: 2.01)
+2025-10-04 21:46:35,226 - INFO -    Total Requests: 760
+2025-10-04 21:46:35,226 - INFO -    Successful: 704 (92.6%)
+2025-10-04 21:46:35,227 - INFO -    Failed: 16
+2025-10-04 21:46:35,227 - INFO -    Locations: 8
+2025-10-04 21:46:35,227 - INFO -    Last Success: 20:46:35
+2025-10-04 21:47:05,303 - INFO - Special event detected: rain (multiplier: 1.51)
+2025-10-04 21:47:05,310 - INFO - Special event detected: accident (multiplier: 2.50)
+2025-10-04 21:47:35,613 - INFO - Special event detected: rain (multiplier: 1.46)
+2025-10-04 21:48:05,912 - INFO - Special event detected: road_work (multiplier: 1.84)
+2025-10-04 21:48:36,173 - INFO - Special event detected: road_work (multiplier: 1.68)
+2025-10-04 21:48:36,174 - INFO - Special event detected: rain (multiplier: 1.38)
+2025-10-04 21:49:06,434 - INFO - Special event detected: accident (multiplier: 2.29)
+2025-10-04 21:49:06,436 - INFO - Special event detected: rain (multiplier: 1.49)
+2025-10-04 21:49:06,697 - INFO -    Total Requests: 800
+2025-10-04 21:49:06,698 - INFO -    Successful: 744 (93.0%)
+2025-10-04 21:49:06,698 - INFO -    Failed: 16
+2025-10-04 21:49:06,698 - INFO -    Locations: 8
+2025-10-04 21:49:06,698 - INFO -    Last Success: 20:49:06
+2025-10-04 21:49:36,733 - INFO - Special event detected: rain (multiplier: 1.44)
+2025-10-04 21:49:36,738 - INFO - Special event detected: event (multiplier: 2.05)
+2025-10-04 21:50:07,026 - INFO - Special event detected: event (multiplier: 2.43)
+2025-10-04 21:50:07,029 - INFO - Special event detected: accident (multiplier: 2.60)
+2025-10-04 21:50:37,278 - INFO - Special event detected: event (multiplier: 2.23)
+2025-10-04 21:50:37,282 - INFO - Special event detected: rain (multiplier: 1.50)
+2025-10-04 21:50:37,286 - INFO - Special event detected: rain (multiplier: 1.47)
+2025-10-04 21:51:07,558 - INFO - Special event detected: accident (multiplier: 2.15)
+2025-10-04 21:51:37,889 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-04 21:51:37,895 - INFO - Special event detected: rain (multiplier: 1.64)
+2025-10-04 21:51:38,298 - INFO -    Total Requests: 840
+2025-10-04 21:51:38,299 - INFO -    Successful: 784 (93.3%)
+2025-10-04 21:51:38,299 - INFO -    Failed: 16
+2025-10-04 21:51:38,300 - INFO -    Locations: 8
+2025-10-04 21:51:38,300 - INFO -    Last Success: 20:51:38
+2025-10-04 21:52:08,343 - INFO - Special event detected: rain (multiplier: 1.62)
+2025-10-04 21:52:38,720 - INFO - Special event detected: accident (multiplier: 2.61)
+2025-10-04 21:53:39,462 - INFO - Special event detected: event (multiplier: 2.10)
+2025-10-04 21:54:09,872 - INFO - Special event detected: road_work (multiplier: 1.67)
+2025-10-04 21:54:09,884 - INFO - Special event detected: accident (multiplier: 2.28)
+2025-10-04 21:54:10,184 - INFO -    Total Requests: 880
+2025-10-04 21:54:10,184 - INFO -    Successful: 824 (93.6%)
+2025-10-04 21:54:10,184 - INFO -    Failed: 16
+2025-10-04 21:54:10,184 - INFO -    Locations: 8
+2025-10-04 21:54:10,184 - INFO -    Last Success: 20:54:10
+2025-10-04 21:54:40,224 - INFO - Special event detected: accident (multiplier: 2.20)
+2025-10-04 21:55:10,556 - INFO - Special event detected: road_work (multiplier: 1.79)
+2025-10-04 21:55:10,557 - INFO - Special event detected: event (multiplier: 2.20)
+2025-10-04 21:55:10,558 - INFO - Special event detected: accident (multiplier: 2.22)
+2025-10-04 21:55:40,866 - INFO - Special event detected: rain (multiplier: 1.80)
+2025-10-04 21:55:40,872 - INFO - Special event detected: road_work (multiplier: 1.51)
+2025-10-04 21:55:40,876 - INFO - Special event detected: rain (multiplier: 1.67)
+2025-10-04 21:56:11,226 - INFO - Special event detected: accident (multiplier: 2.52)
+2025-10-04 21:56:11,242 - INFO - Special event detected: road_work (multiplier: 1.83)
+2025-10-04 21:56:41,501 - INFO - Special event detected: rain (multiplier: 1.63)
+2025-10-04 21:57:02,424 - INFO -    Total Requests: 936
+2025-10-04 21:57:02,424 - INFO -    Successful: 856 (91.5%)
+2025-10-04 21:57:02,424 - INFO -    Failed: 24
+2025-10-04 21:57:02,424 - INFO -    Locations: 8
+2025-10-04 21:57:02,424 - INFO -    Last Success: 20:56:11
+2025-10-04 21:57:21,331 - INFO -    Total Requests: 936
+2025-10-04 21:57:21,332 - INFO -    Successful: 856 (91.5%)
+2025-10-04 21:57:21,332 - INFO -    Failed: 24
+2025-10-04 21:57:21,332 - INFO -    Locations: 8
+2025-10-04 21:57:21,333 - INFO -    Last Success: 20:56:11
+2025-10-05 20:38:52,515 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-05 20:38:52,568 - INFO - Special event detected: rain (multiplier: 1.78)
+2025-10-05 20:38:52,569 - INFO - Special event detected: rain (multiplier: 1.59)
+2025-10-05 20:39:28,472 - INFO - Special event detected: accident (multiplier: 2.33)
+2025-10-05 20:39:59,667 - INFO - Special event detected: rain (multiplier: 1.72)
+2025-10-05 20:39:59,678 - INFO - Special event detected: accident (multiplier: 2.24)
+2025-10-05 20:40:31,629 - INFO - Special event detected: event (multiplier: 2.08)
+2025-10-05 20:41:02,832 - INFO - Special event detected: event (multiplier: 1.83)
+2025-10-05 20:41:03,146 - INFO -    Total Requests: 40
+2025-10-05 20:41:03,148 - INFO -    Successful: 40 (100.0%)
+2025-10-05 20:41:03,148 - INFO -    Failed: 0
+2025-10-05 20:41:03,149 - INFO -    Locations: 8
+2025-10-05 20:41:03,150 - INFO -    Last Success: 19:41:03
+2025-10-05 20:41:33,197 - INFO - Special event detected: accident (multiplier: 2.77)
+2025-10-05 20:41:33,198 - INFO - Special event detected: rain (multiplier: 1.57)
+2025-10-05 20:41:33,204 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-05 20:42:03,623 - INFO - Special event detected: event (multiplier: 1.86)
+2025-10-05 20:42:03,627 - INFO - Special event detected: rain (multiplier: 1.66)
+2025-10-05 20:42:34,114 - INFO - Special event detected: rain (multiplier: 1.59)
+2025-10-05 20:42:44,896 - INFO -    Total Requests: 64
+2025-10-05 20:42:44,896 - INFO -    Successful: 64 (100.0%)
+2025-10-05 20:42:44,897 - INFO -    Failed: 0
+2025-10-05 20:42:44,897 - INFO -    Locations: 8
+2025-10-05 20:42:44,898 - INFO -    Last Success: 19:42:34
+2025-10-05 21:09:05,149 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-05 21:10:11,546 - INFO - Special event detected: road_work (multiplier: 1.90)
+2025-10-05 21:10:44,925 - INFO - Special event detected: rain (multiplier: 1.41)
+2025-10-05 21:10:44,933 - INFO - Special event detected: rain (multiplier: 1.73)
+2025-10-05 21:11:16,119 - INFO - Special event detected: road_work (multiplier: 1.88)
+2025-10-05 21:11:16,381 - INFO -    Total Requests: 40
+2025-10-05 21:11:16,381 - INFO -    Successful: 40 (100.0%)
+2025-10-05 21:11:16,381 - INFO -    Failed: 0
+2025-10-05 21:11:16,382 - INFO -    Locations: 8
+2025-10-05 21:11:16,382 - INFO -    Last Success: 20:11:16
+2025-10-05 21:11:46,424 - INFO - Special event detected: rain (multiplier: 1.73)
+2025-10-05 21:13:05,899 - INFO - Special event detected: rain (multiplier: 1.64)
+2025-10-05 21:13:05,900 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-05 21:13:40,552 - INFO - Special event detected: rain (multiplier: 1.71)
+2025-10-05 21:14:15,871 - INFO - Special event detected: rain (multiplier: 1.39)
+2025-10-05 21:14:15,875 - INFO - Special event detected: rain (multiplier: 1.79)
+2025-10-05 21:14:17,811 - INFO -    Total Requests: 96
+2025-10-05 21:14:17,812 - INFO -    Successful: 80 (83.3%)
+2025-10-05 21:14:17,812 - INFO -    Failed: 0
+2025-10-05 21:14:17,812 - INFO -    Locations: 8
+2025-10-05 21:14:17,812 - INFO -    Last Success: 20:14:17
+2025-10-05 21:14:47,836 - INFO - Special event detected: rain (multiplier: 1.69)
+2025-10-05 21:14:47,838 - INFO - Special event detected: accident (multiplier: 2.98)
+2025-10-05 21:14:47,840 - INFO - Special event detected: road_work (multiplier: 1.57)
+2025-10-05 21:15:19,008 - INFO - Special event detected: rain (multiplier: 1.40)
+2025-10-05 21:15:49,289 - INFO - Special event detected: accident (multiplier: 2.89)
+2025-10-05 21:16:19,540 - INFO - Special event detected: road_work (multiplier: 1.98)
+2025-10-05 21:16:50,077 - INFO -    Total Requests: 136
+2025-10-05 21:16:50,077 - INFO -    Successful: 120 (88.2%)
+2025-10-05 21:16:50,078 - INFO -    Failed: 0
+2025-10-05 21:16:50,078 - INFO -    Locations: 8
+2025-10-05 21:16:50,078 - INFO -    Last Success: 20:16:50
+2025-10-05 21:17:20,101 - INFO - Special event detected: rain (multiplier: 1.46)
+2025-10-05 21:17:50,363 - INFO - Special event detected: event (multiplier: 2.14)
+2025-10-05 21:17:50,366 - INFO - Special event detected: rain (multiplier: 1.42)
+2025-10-05 21:17:50,368 - INFO - Special event detected: event (multiplier: 1.93)
+2025-10-05 21:18:51,024 - INFO - Special event detected: event (multiplier: 2.34)
+2025-10-05 21:19:21,261 - INFO - Special event detected: rain (multiplier: 1.60)
+2025-10-05 21:19:21,264 - INFO - Special event detected: rain (multiplier: 1.48)
+2025-10-05 21:19:21,483 - INFO -    Total Requests: 176
+2025-10-05 21:19:21,483 - INFO -    Successful: 160 (90.9%)
+2025-10-05 21:19:21,483 - INFO -    Failed: 0
+2025-10-05 21:19:21,483 - INFO -    Locations: 8
+2025-10-05 21:19:21,484 - INFO -    Last Success: 20:19:21
+2025-10-05 21:20:21,760 - INFO - Special event detected: accident (multiplier: 2.14)
+2025-10-05 21:20:52,039 - INFO - Special event detected: rain (multiplier: 1.43)
+2025-10-05 21:21:22,305 - INFO - Special event detected: event (multiplier: 2.30)
+2025-10-05 21:21:22,311 - INFO - Special event detected: rain (multiplier: 1.44)
+2025-10-05 21:21:52,804 - INFO -    Total Requests: 216
+2025-10-05 21:21:52,805 - INFO -    Successful: 200 (92.6%)
+2025-10-05 21:21:52,805 - INFO -    Failed: 0
+2025-10-05 21:21:52,805 - INFO -    Locations: 8
+2025-10-05 21:21:52,805 - INFO -    Last Success: 20:21:52
+2025-10-05 21:22:22,828 - INFO - Special event detected: road_work (multiplier: 1.96)
+2025-10-05 21:22:22,830 - INFO - Special event detected: accident (multiplier: 2.44)
+2025-10-05 21:22:53,061 - INFO - Special event detected: accident (multiplier: 2.71)
+2025-10-05 21:22:53,063 - INFO - Special event detected: rain (multiplier: 1.56)
+2025-10-05 21:22:53,064 - INFO - Special event detected: event (multiplier: 2.45)
+2025-10-05 21:23:23,311 - INFO - Special event detected: accident (multiplier: 2.38)
+2025-10-05 21:23:53,699 - INFO - Special event detected: rain (multiplier: 1.56)
+2025-10-05 21:23:53,701 - INFO - Special event detected: accident (multiplier: 2.86)
+2025-10-05 21:23:53,717 - INFO - Special event detected: rain (multiplier: 1.39)
+2025-10-05 21:24:23,950 - INFO - Special event detected: accident (multiplier: 2.39)
+2025-10-05 21:24:23,951 - INFO - Special event detected: rain (multiplier: 1.47)
+2025-10-05 21:24:23,952 - INFO - Special event detected: accident (multiplier: 2.70)
+2025-10-05 21:24:23,954 - INFO - Special event detected: rain (multiplier: 1.77)
+2025-10-05 21:24:24,162 - INFO -    Total Requests: 256
+2025-10-05 21:24:24,162 - INFO -    Successful: 240 (93.8%)
+2025-10-05 21:24:24,162 - INFO -    Failed: 0
+2025-10-05 21:24:24,162 - INFO -    Locations: 8
+2025-10-05 21:24:24,162 - INFO -    Last Success: 20:24:24
+2025-10-05 21:25:24,542 - INFO - Special event detected: rain (multiplier: 1.41)
+2025-10-05 21:25:24,543 - INFO - Special event detected: rain (multiplier: 1.71)
+2025-10-05 21:26:25,018 - INFO - Special event detected: road_work (multiplier: 1.88)
+2025-10-05 21:26:25,019 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-05 21:26:55,283 - INFO - Special event detected: road_work (multiplier: 1.61)
+2025-10-05 21:26:55,497 - INFO -    Total Requests: 296
+2025-10-05 21:26:55,497 - INFO -    Successful: 280 (94.6%)
+2025-10-05 21:26:55,497 - INFO -    Failed: 0
+2025-10-05 21:26:55,497 - INFO -    Locations: 8
+2025-10-05 21:26:55,497 - INFO -    Last Success: 20:26:55
+2025-10-05 21:27:25,526 - INFO - Special event detected: accident (multiplier: 2.48)
+2025-10-05 21:27:25,535 - INFO - Special event detected: road_work (multiplier: 1.64)
+2025-10-05 21:28:25,997 - INFO - Special event detected: rain (multiplier: 1.79)
+2025-10-06 11:03:13,710 - INFO - Special event detected: rain (multiplier: 1.32)
+2025-10-06 11:03:13,711 - INFO - Special event detected: road_work (multiplier: 1.54)
+2025-10-06 11:04:36,228 - INFO -    Total Requests: 384
+2025-10-06 11:04:36,228 - INFO -    Successful: 296 (77.1%)
+2025-10-06 11:04:36,228 - INFO -    Failed: 24
+2025-10-06 11:04:36,229 - INFO -    Locations: 8
+2025-10-06 11:04:36,229 - INFO -    Last Success: 20:27:55
+2025-10-06 11:05:06,349 - INFO - Special event detected: rain (multiplier: 1.58)
+2025-10-06 11:05:06,356 - INFO - Special event detected: road_work (multiplier: 1.93)
+2025-10-06 11:05:55,629 - INFO - Special event detected: accident (multiplier: 2.60)
+2025-10-06 11:06:25,910 - INFO -    Total Requests: 432
+2025-10-06 11:06:25,911 - INFO -    Successful: 296 (68.5%)
+2025-10-06 11:06:25,911 - INFO -    Failed: 40
+2025-10-06 11:06:25,911 - INFO -    Locations: 8
+2025-10-06 11:06:25,912 - INFO -    Last Success: 20:27:55
+2025-10-06 11:40:16,436 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-06 11:41:03,628 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-06 11:41:35,501 - INFO - Special event detected: rain (multiplier: 1.43)
+2025-10-06 11:41:35,512 - INFO - Special event detected: rain (multiplier: 1.37)
+2025-10-06 11:41:39,082 - INFO -    Total Requests: 31
+2025-10-06 11:41:39,087 - INFO -    Successful: 24 (77.4%)
+2025-10-06 11:41:39,087 - INFO -    Failed: 0
+2025-10-06 11:41:39,090 - INFO -    Locations: 8
+2025-10-06 11:41:39,091 - INFO -    Last Success: 10:41:35
+2025-10-06 11:42:41,017 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-06 11:42:41,076 - INFO - Special event detected: accident (multiplier: 2.87)
+2025-10-06 11:43:11,729 - INFO - Special event detected: accident (multiplier: 2.48)
+2025-10-06 11:43:42,207 - INFO - Special event detected: rain (multiplier: 1.42)
+2025-10-06 11:44:12,865 - INFO - Special event detected: accident (multiplier: 2.31)
+2025-10-06 11:44:43,433 - INFO - Special event detected: rain (multiplier: 1.77)
+2025-10-06 11:44:43,798 - INFO -    Total Requests: 40
+2025-10-06 11:44:43,799 - INFO -    Successful: 40 (100.0%)
+2025-10-06 11:44:43,800 - INFO -    Failed: 0
+2025-10-06 11:44:43,800 - INFO -    Locations: 8
+2025-10-06 11:44:43,801 - INFO -    Last Success: 10:44:43
+2025-10-06 11:45:13,885 - INFO - Special event detected: event (multiplier: 2.01)
+2025-10-06 11:45:13,913 - INFO - Special event detected: rain (multiplier: 1.62)
+2025-10-06 11:45:44,510 - INFO - Special event detected: event (multiplier: 1.86)
+2025-10-06 11:46:15,019 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-06 11:46:45,479 - INFO - Special event detected: rain (multiplier: 1.41)
+2025-10-06 11:46:45,500 - INFO - Special event detected: accident (multiplier: 2.78)
+2025-10-06 11:47:15,779 - INFO - Special event detected: accident (multiplier: 2.61)
+2025-10-06 11:47:16,019 - INFO -    Total Requests: 80
+2025-10-06 11:47:16,019 - INFO -    Successful: 80 (100.0%)
+2025-10-06 11:47:16,019 - INFO -    Failed: 0
+2025-10-06 11:47:16,020 - INFO -    Locations: 8
+2025-10-06 11:47:16,020 - INFO -    Last Success: 10:47:15
+2025-10-06 11:48:16,368 - INFO - Special event detected: rain (multiplier: 1.35)
+2025-10-06 11:48:16,382 - INFO - Special event detected: road_work (multiplier: 1.70)
+2025-10-06 11:48:16,387 - INFO - Special event detected: road_work (multiplier: 1.75)
+2025-10-06 11:48:46,744 - INFO - Special event detected: rain (multiplier: 1.32)
+2025-10-06 11:49:17,063 - INFO - Special event detected: rain (multiplier: 1.70)
+2025-10-06 11:49:17,064 - INFO - Special event detected: rain (multiplier: 1.76)
+2025-10-06 11:49:47,384 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-06 11:49:47,387 - INFO - Special event detected: rain (multiplier: 1.31)
+2025-10-06 11:49:47,403 - INFO - Special event detected: rain (multiplier: 1.66)
+2025-10-06 11:49:47,671 - INFO -    Total Requests: 120
+2025-10-06 11:49:47,672 - INFO -    Successful: 120 (100.0%)
+2025-10-06 11:49:47,672 - INFO -    Failed: 0
+2025-10-06 11:49:47,672 - INFO -    Locations: 8
+2025-10-06 11:49:47,673 - INFO -    Last Success: 10:49:47
+2025-10-06 11:50:48,035 - INFO - Special event detected: rain (multiplier: 1.35)
+2025-10-06 11:51:18,453 - INFO - Special event detected: rain (multiplier: 1.61)
+2025-10-06 11:51:18,460 - INFO - Special event detected: accident (multiplier: 2.44)
+2025-10-06 11:51:18,467 - INFO - Special event detected: accident (multiplier: 2.57)
+2025-10-06 11:51:48,770 - INFO - Special event detected: accident (multiplier: 2.12)
+2025-10-06 11:52:19,048 - INFO - Special event detected: rain (multiplier: 1.62)
+2025-10-06 11:52:19,066 - INFO - Special event detected: rain (multiplier: 1.65)
+2025-10-06 11:52:19,069 - INFO - Special event detected: rain (multiplier: 1.55)
+2025-10-06 11:52:19,280 - INFO -    Total Requests: 160
+2025-10-06 11:52:19,281 - INFO -    Successful: 160 (100.0%)
+2025-10-06 11:52:19,281 - INFO -    Failed: 0
+2025-10-06 11:52:19,281 - INFO -    Locations: 8
+2025-10-06 11:52:19,281 - INFO -    Last Success: 10:52:19
+2025-10-06 11:52:49,353 - INFO - Special event detected: road_work (multiplier: 1.84)
+2025-10-06 11:53:50,173 - INFO - Special event detected: road_work (multiplier: 1.92)
+2025-10-06 11:54:20,712 - INFO - Special event detected: accident (multiplier: 2.73)
+2025-10-06 11:54:20,721 - INFO - Special event detected: road_work (multiplier: 1.77)
+2025-10-06 11:54:51,067 - INFO - Special event detected: rain (multiplier: 1.41)
+2025-10-06 11:54:51,369 - INFO -    Total Requests: 200
+2025-10-06 11:54:51,369 - INFO -    Successful: 200 (100.0%)
+2025-10-06 11:54:51,369 - INFO -    Failed: 0
+2025-10-06 11:54:51,370 - INFO -    Locations: 8
+2025-10-06 11:54:51,371 - INFO -    Last Success: 10:54:51
+2025-10-06 11:55:21,430 - INFO - Special event detected: rain (multiplier: 1.67)
+2025-10-06 11:55:51,775 - INFO - Special event detected: rain (multiplier: 1.78)
+2025-10-06 11:56:22,116 - INFO - Special event detected: road_work (multiplier: 1.56)
+2025-10-06 11:56:52,388 - INFO - Special event detected: rain (multiplier: 1.76)
+2025-10-06 11:56:52,391 - INFO - Special event detected: rain (multiplier: 1.32)
+2025-10-06 11:57:22,646 - INFO - Special event detected: rain (multiplier: 1.54)
+2025-10-06 11:57:23,730 - INFO -    Total Requests: 240
+2025-10-06 11:57:23,730 - INFO -    Successful: 240 (100.0%)
+2025-10-06 11:57:23,731 - INFO -    Failed: 0
+2025-10-06 11:57:23,731 - INFO -    Locations: 8
+2025-10-06 11:57:23,731 - INFO -    Last Success: 10:57:23
+2025-10-06 11:58:54,424 - INFO - Special event detected: rain (multiplier: 1.48)
+2025-10-06 11:59:24,840 - INFO - Special event detected: accident (multiplier: 2.93)
+2025-10-06 11:59:55,373 - INFO - Special event detected: event (multiplier: 2.32)
+2025-10-06 11:59:55,841 - INFO -    Total Requests: 280
+2025-10-06 11:59:55,842 - INFO -    Successful: 280 (100.0%)
+2025-10-06 11:59:55,845 - INFO -    Failed: 0
+2025-10-06 11:59:55,847 - INFO -    Locations: 8
+2025-10-06 11:59:55,850 - INFO -    Last Success: 10:59:55
+2025-10-06 12:00:56,766 - INFO - Special event detected: road_work (multiplier: 1.78)
+2025-10-06 12:00:56,805 - INFO - Special event detected: road_work (multiplier: 1.73)
+2025-10-06 12:01:27,514 - INFO - Special event detected: rain (multiplier: 1.78)
+2025-10-06 12:01:27,522 - INFO - Special event detected: accident (multiplier: 2.21)
+2025-10-06 12:01:27,538 - INFO - Special event detected: accident (multiplier: 2.09)
+2025-10-06 12:01:27,542 - INFO - Special event detected: road_work (multiplier: 1.85)
+2025-10-06 12:02:28,947 - INFO - Special event detected: rain (multiplier: 1.39)
+2025-10-06 12:02:29,528 - INFO -    Total Requests: 320
+2025-10-06 12:02:29,528 - INFO -    Successful: 320 (100.0%)
+2025-10-06 12:02:29,528 - INFO -    Failed: 0
+2025-10-06 12:02:29,528 - INFO -    Locations: 8
+2025-10-06 12:02:29,528 - INFO -    Last Success: 11:02:29
+2025-10-06 12:02:59,809 - INFO - Special event detected: road_work (multiplier: 1.50)
+2025-10-06 12:02:59,811 - INFO - Special event detected: rain (multiplier: 1.34)
+2025-10-06 12:03:30,274 - INFO - Special event detected: road_work (multiplier: 1.81)
+2025-10-06 12:03:30,275 - INFO - Special event detected: event (multiplier: 2.07)
+2025-10-06 12:03:30,296 - INFO - Special event detected: event (multiplier: 2.42)
+2025-10-06 12:03:30,304 - INFO - Special event detected: rain (multiplier: 1.74)
+2025-10-06 12:04:01,120 - INFO - Special event detected: event (multiplier: 1.93)
+2025-10-06 12:04:32,536 - INFO - Special event detected: road_work (multiplier: 1.94)
+2025-10-06 12:05:17,375 - INFO - Special event detected: road_work (multiplier: 1.91)
+2025-10-06 12:05:17,849 - INFO -    Total Requests: 366
+2025-10-06 12:05:17,850 - INFO -    Successful: 360 (98.4%)
+2025-10-06 12:05:17,850 - INFO -    Failed: 0
+2025-10-06 12:05:17,851 - INFO -    Locations: 8
+2025-10-06 12:05:17,851 - INFO -    Last Success: 11:05:17
+2025-10-06 12:05:47,914 - INFO - Special event detected: accident (multiplier: 2.19)
+2025-10-06 12:06:55,098 - INFO - Special event detected: event (multiplier: 1.84)
+2025-10-06 12:06:55,146 - INFO - Special event detected: event (multiplier: 2.09)
+2025-10-06 12:08:02,103 - INFO - Special event detected: rain (multiplier: 1.58)
+2025-10-06 12:09:09,042 - INFO - Special event detected: rain (multiplier: 1.62)
+2025-10-06 12:10:16,372 - INFO - Special event detected: rain (multiplier: 1.64)
+2025-10-06 12:10:16,382 - INFO - Special event detected: rain (multiplier: 1.32)
+2025-10-06 12:10:16,404 - INFO - Special event detected: rain (multiplier: 1.34)
+2025-10-06 12:10:53,373 - INFO -    Total Requests: 486
+2025-10-06 12:10:53,374 - INFO -    Successful: 360 (74.1%)
+2025-10-06 12:10:53,374 - INFO -    Failed: 40
+2025-10-06 12:10:53,374 - INFO -    Locations: 8
+2025-10-06 12:10:53,375 - INFO -    Last Success: 11:05:17
+2025-10-06 12:11:23,523 - INFO - Special event detected: accident (multiplier: 2.28)
+2025-10-06 12:11:23,537 - INFO - Special event detected: event (multiplier: 1.81)
+2025-10-06 12:12:19,740 - INFO -    Total Requests: 510
+2025-10-06 12:12:19,745 - INFO -    Successful: 368 (72.2%)
+2025-10-06 12:12:19,745 - INFO -    Failed: 40
+2025-10-06 12:12:19,746 - INFO -    Locations: 8
+2025-10-06 12:12:19,746 - INFO -    Last Success: 11:11:59
+2025-10-08 19:55:38,951 - INFO - Press Ctrl+C to stop the simulation
+
+2025-10-08 19:55:39,192 - INFO - Special event detected: rain (multiplier: 1.58)
+2025-10-08 19:56:14,662 - INFO - Special event detected: rain (multiplier: 1.48)
+2025-10-08 19:56:15,401 - INFO - Special event detected: road_work (multiplier: 1.76)
+2025-10-08 19:56:52,627 - INFO - Special event detected: accident (multiplier: 2.53)
+2025-10-08 19:56:52,631 - INFO - Special event detected: road_work (multiplier: 1.67)
+2025-10-08 19:58:22,871 - INFO - Special event detected: rain (multiplier: 1.49)
+2025-10-08 19:58:24,924 - INFO -    Total Requests: 51
+2025-10-08 19:58:24,925 - INFO -    Successful: 40 (78.4%)
+2025-10-08 19:58:24,925 - INFO -    Failed: 0
+2025-10-08 19:58:24,925 - INFO -    Locations: 8
+2025-10-08 19:58:24,925 - INFO -    Last Success: 18:58:24
+2025-10-08 19:58:54,971 - INFO - Special event detected: event (multiplier: 1.99)
+2025-10-08 19:58:54,996 - INFO - Special event detected: rain (multiplier: 1.44)
+2025-10-08 19:58:55,009 - INFO - Special event detected: rain (multiplier: 1.59)
+2025-10-08 19:59:25,635 - INFO - Special event detected: accident (multiplier: 2.64)
+2025-10-08 19:59:25,638 - INFO - Special event detected: event (multiplier: 2.41)
+2025-10-08 20:01:06,703 - INFO - Special event detected: rain (multiplier: 1.47)
+2025-10-08 20:01:06,722 - INFO - Special event detected: event (multiplier: 2.16)
+2025-10-08 20:01:07,116 - INFO -    Total Requests: 91
+2025-10-08 20:01:07,117 - INFO -    Successful: 80 (87.9%)
+2025-10-08 20:01:07,117 - INFO -    Failed: 0
+2025-10-08 20:01:07,117 - INFO -    Locations: 8
+2025-10-08 20:01:07,117 - INFO -    Last Success: 19:01:07
+2025-10-08 20:02:39,431 - INFO - Special event detected: accident (multiplier: 2.29)
+2025-10-08 20:02:39,433 - INFO - Special event detected: rain (multiplier: 1.42)
+2025-10-08 20:03:10,578 - INFO - Special event detected: rain (multiplier: 1.69)
+2025-10-08 20:03:10,587 - INFO - Special event detected: rain (multiplier: 1.46)
+2025-10-08 20:03:10,589 - INFO - Special event detected: accident (multiplier: 2.55)
+2025-10-08 20:03:10,590 - INFO - Special event detected: road_work (multiplier: 1.54)
+2025-10-08 20:03:10,591 - INFO - Special event detected: event (multiplier: 1.85)
+2025-10-08 20:03:48,347 - INFO - Special event detected: accident (multiplier: 2.94)
+2025-10-08 20:03:48,353 - INFO - Special event detected: accident (multiplier: 2.28)
+2025-10-08 20:03:48,353 - INFO - Special event detected: rain (multiplier: 1.74)
+2025-10-08 20:03:48,750 - INFO -    Total Requests: 131
+2025-10-08 20:03:48,751 - INFO -    Successful: 120 (91.6%)
+2025-10-08 20:03:48,751 - INFO -    Failed: 0
+2025-10-08 20:03:48,751 - INFO -    Locations: 8
+2025-10-08 20:03:48,752 - INFO -    Last Success: 19:03:48
+2025-10-08 20:04:18,776 - INFO - Special event detected: road_work (multiplier: 1.56)
+2025-10-08 20:04:18,786 - INFO - Special event detected: road_work (multiplier: 1.65)
+2025-10-08 20:04:18,787 - INFO - Special event detected: rain (multiplier: 1.60)
+2025-10-08 20:04:50,808 - INFO - Special event detected: road_work (multiplier: 1.56)
+2025-10-08 20:05:21,182 - INFO - Special event detected: event (multiplier: 2.14)
+2025-10-08 20:06:32,597 - INFO - Special event detected: rain (multiplier: 1.45)
+2025-10-08 20:06:32,607 - INFO - Special event detected: rain (multiplier: 1.50)
+2025-10-08 20:06:51,207 - INFO -    Total Requests: 187
+2025-10-08 20:06:51,207 - INFO -    Successful: 152 (81.3%)
+2025-10-08 20:06:51,207 - INFO -    Failed: 8
+2025-10-08 20:06:51,207 - INFO -    Locations: 8
+2025-10-08 20:06:51,207 - INFO -    Last Success: 19:06:02
+2025-10-08 20:07:48,076 - INFO -    Total Requests: 211
+2025-10-08 20:07:48,076 - INFO -    Successful: 152 (72.0%)
+2025-10-08 20:07:48,076 - INFO -    Failed: 16
+2025-10-08 20:07:48,076 - INFO -    Locations: 8
+2025-10-08 20:07:48,077 - INFO -    Last Success: 19:06:02
