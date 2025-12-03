@@ -7,6 +7,8 @@ from datetime import datetime, timedelta
 from typing import Dict, List, Tuple
 import sys
 import threading
+from flask import Flask, jsonify
+import os
 
 # Configure logging
 logging.basicConfig(
@@ -17,6 +19,97 @@ logging.basicConfig(
         logging.FileHandler('iot_simulation.log')
     ]
 )
+
+# Flask app for health checks
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    """Home page with simulation info"""
+    if hasattr(app, 'simulator'):
+        return jsonify({
+            'status': 'running',
+            'service': 'iot-traffic-simulator',
+            'simulation': app.simulator.stats,
+            'timestamp': datetime.utcnow().isoformat(),
+            'endpoints': {
+                'health': '/health',
+                'stats': '/stats',
+                'locations': '/locations',
+                'stop': '/stop (POST)',
+                'start': '/start (POST)'
+            }
+        })
+    return jsonify({'status': 'initializing'})
+
+@app.route('/health')
+def health():
+    """Health check endpoint for Render"""
+    return jsonify({
+        'status': 'healthy',
+        'timestamp': datetime.utcnow().isoformat()
+    })
+
+@app.route('/stats')
+def stats():
+    """Get simulation statistics"""
+    if hasattr(app, 'simulator'):
+        stats = app.simulator.stats.copy()
+        
+        # Calculate uptime
+        if 'start_time' in stats:
+            start_time = datetime.fromisoformat(stats['start_time'].replace('Z', '+00:00'))
+            uptime = datetime.utcnow() - start_time
+            stats['uptime_seconds'] = int(uptime.total_seconds())
+            stats['uptime_human'] = str(uptime).split('.')[0]
+        
+        # Calculate success rate
+        if stats['total_requests'] > 0:
+            stats['success_rate'] = f"{(stats['successful_requests'] / stats['total_requests'] * 100):.1f}%"
+        else:
+            stats['success_rate'] = "0%"
+            
+        return jsonify(stats)
+    return jsonify({'error': 'Simulator not initialized'})
+
+@app.route('/locations')
+def locations():
+    """Get all monitored locations"""
+    return jsonify({
+        'locations': list(LOCATIONS.keys()),
+        'count': len(LOCATIONS)
+    })
+
+@app.route('/stop', methods=['POST'])
+def stop_simulation():
+    """Stop the simulation"""
+    if hasattr(app, 'simulator'):
+        app.simulator.running = False
+        app.simulator.stats['status'] = 'stopped_by_api'
+        return jsonify({
+            'status': 'stopping',
+            'message': 'Simulation will stop after current batch'
+        })
+    return jsonify({'error': 'Simulator not running'})
+
+@app.route('/start', methods=['POST'])
+def start_simulation():
+    """Start or restart the simulation"""
+    if not hasattr(app, 'simulator') or app.simulator.stats.get('status') == 'stopped':
+        # Start simulation in a separate thread
+        def run_sim():
+            simulator = TrafficSimulator()
+            app.simulator = simulator
+            simulator.run_simulation()
+        
+        sim_thread = threading.Thread(target=run_sim, daemon=True)
+        sim_thread.start()
+        
+        return jsonify({
+            'status': 'starting',
+            'message': 'Simulation is starting...'
+        })
+    return jsonify({'status': 'already_running'})
 
 # Configuration for Render deployment
 BASE_URL = 'https://traffic-backend-97ga.onrender.com/api/traffic-data'
@@ -64,10 +157,27 @@ class TrafficSimulator:
             'failed_requests': 0,
             'total_requests': 0,
             'last_success': None,
-            'locations_sent': 0
+            'locations_sent': 0,
+            'start_time': datetime.utcnow().isoformat(),
+            'status': 'running',
+            'batch_count': 0,
+            'backend_url': BASE_URL,
+            'update_interval': INTERVAL
         }
         self.running = True
+        self.lock = threading.Lock()
         
+    def update_stat(self, key, value):
+        """Thread-safe stat update"""
+        with self.lock:
+            self.stats[key] = value
+    
+    def increment_stat(self, key, amount=1):
+        """Thread-safe stat increment"""
+        with self.lock:
+            if key in self.stats and isinstance(self.stats[key], (int, float)):
+                self.stats[key] += amount
+    
     def get_current_traffic_pattern(self, hour: int) -> Tuple[int, int]:
         """Get vehicle range based on current time and traffic patterns."""
         for pattern_name, pattern in TRAFFIC_PATTERNS.items():
@@ -150,18 +260,18 @@ class TrafficSimulator:
         
         while retries < MAX_RETRIES and self.running:
             try:
-                self.stats['total_requests'] += 1
+                self.increment_stat('total_requests')
                 
                 response = self.session.post(
                     BASE_URL, 
                     json=data, 
-                    timeout=15,  # Increased timeout for Render deployment
+                    timeout=15,
                     headers={'X-Simulator-Id': 'iot-traffic-simulator'}
                 )
                 
                 if response.status_code in (200, 201):
-                    self.stats['successful_requests'] += 1
-                    self.stats['last_success'] = datetime.utcnow()
+                    self.increment_stat('successful_requests')
+                    self.update_stat('last_success', datetime.utcnow().isoformat())
                     
                     try:
                         response_data = response.json()
@@ -194,7 +304,7 @@ class TrafficSimulator:
                 logging.info(f"🔄 {location}: Retrying in {wait_time} seconds...")
                 time.sleep(wait_time)
         
-        self.stats['failed_requests'] += 1
+        self.increment_stat('failed_requests')
         logging.error(f"🚫 {location}: Failed after {MAX_RETRIES} attempts")
         return False
     
@@ -206,7 +316,6 @@ class TrafficSimulator:
         logging.info(f"🔄 Sending data for all {len(LOCATIONS)} locations at {current_time.strftime('%H:%M:%S')}...")
         
         threads = []
-        successful_locations = 0
         
         for location_name, coords in LOCATIONS.items():
             # Generate traffic data for each location
@@ -234,7 +343,8 @@ class TrafficSimulator:
         for thread in threads:
             thread.join()
         
-        self.stats['locations_sent'] = len(LOCATIONS)
+        self.update_stat('locations_sent', len(LOCATIONS))
+        self.increment_stat('batch_count')
         logging.info(f"📦 Batch completed: {len(LOCATIONS)} locations processed")
     
     def _send_location_data_thread(self, location: str, data: Dict):
@@ -245,14 +355,19 @@ class TrafficSimulator:
     
     def print_stats(self):
         """Print current simulation statistics."""
-        success_rate = (self.stats['successful_requests'] / self.stats['total_requests'] * 100) if self.stats['total_requests'] > 0 else 0
+        with self.lock:
+            stats = self.stats.copy()
+        
+        success_rate = (stats['successful_requests'] / stats['total_requests'] * 100) if stats['total_requests'] > 0 else 0
         logging.info(f"\n📊 Simulation Statistics:")
-        logging.info(f"   Total Requests: {self.stats['total_requests']}")
-        logging.info(f"   Successful: {self.stats['successful_requests']} ({success_rate:.1f}%)")
-        logging.info(f"   Failed: {self.stats['failed_requests']}")
-        logging.info(f"   Locations: {self.stats['locations_sent']}")
-        if self.stats['last_success']:
-            logging.info(f"   Last Success: {self.stats['last_success'].strftime('%H:%M:%S')}")
+        logging.info(f"   Total Requests: {stats['total_requests']}")
+        logging.info(f"   Successful: {stats['successful_requests']} ({success_rate:.1f}%)")
+        logging.info(f"   Failed: {stats['failed_requests']}")
+        logging.info(f"   Batches: {stats['batch_count']}")
+        logging.info(f"   Status: {stats['status']}")
+        if stats['last_success']:
+            last_success_time = datetime.fromisoformat(stats['last_success'].replace('Z', '+00:00'))
+            logging.info(f"   Last Success: {last_success_time.strftime('%H:%M:%S')}")
     
     def run_simulation(self):
         """Main simulation loop."""
@@ -260,18 +375,16 @@ class TrafficSimulator:
         logging.info(f"📍 Monitoring {len(LOCATIONS)} locations")
         logging.info(f"⏰ Update interval: {INTERVAL} seconds")
         logging.info(f"🌐 Backend URL: {BASE_URL}")
+        logging.info("📡 Web interface available on /")
         logging.info("Press Ctrl+C to stop the simulation\n")
-        
-        batch_counter = 0
         
         try:
             while self.running:
                 # Send data for ALL locations
                 self.send_data_for_all_locations()
-                batch_counter += 1
                 
                 # Print stats every 5 batches
-                if batch_counter % 5 == 0:
+                if self.stats['batch_count'] % 5 == 0:
                     self.print_stats()
                 
                 # Wait for next interval
@@ -283,19 +396,33 @@ class TrafficSimulator:
                 
         except KeyboardInterrupt:
             logging.info("\n\n🛑 Simulation stopped by user")
+            self.update_stat('status', 'stopped')
             self.running = False
             
         except Exception as e:
             logging.error(f"💥 Unexpected error: {e}")
+            self.update_stat('status', 'error')
             
         finally:
             self.print_stats()
             logging.info("📝 Logs saved to iot_simulation.log")
 
+def run_flask():
+    """Run the Flask web server."""
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port)
+
 def main():
-    """Main entry point."""
+    """Main entry point - run both Flask and simulator in separate threads."""
+    # Start simulation in background thread
     simulator = TrafficSimulator()
-    simulator.run_simulation()
+    app.simulator = simulator
+    
+    sim_thread = threading.Thread(target=simulator.run_simulation, daemon=True)
+    sim_thread.start()
+    
+    # Run Flask in main thread (blocking)
+    run_flask()
 
 if __name__ == "__main__":
     main()
