@@ -18,8 +18,8 @@ logging.basicConfig(
     ]
 )
 
-# Configuration
-BASE_URL = 'http://localhost:3000/api/traffic-data'
+# Configuration for Render deployment
+BASE_URL = 'https://traffic-backend-97ga.onrender.com/api/traffic-data'
 LOCATIONS = {
     'Ikeja': {'lat': 6.5998, 'lon': 3.3460},
     'Victoria Island': {'lat': 6.4295, 'lon': 3.4236},
@@ -155,7 +155,7 @@ class TrafficSimulator:
                 response = self.session.post(
                     BASE_URL, 
                     json=data, 
-                    timeout=10,
+                    timeout=15,  # Increased timeout for Render deployment
                     headers={'X-Simulator-Id': 'iot-traffic-simulator'}
                 )
                 
@@ -173,7 +173,7 @@ class TrafficSimulator:
                     return True
                     
                 else:
-                    logging.warning(f"⚠️ {location}: HTTP {response.status_code}")
+                    logging.warning(f"⚠️ {location}: HTTP {response.status_code} - {response.text}")
                     retries += 1
                     
             except requests.exceptions.Timeout:
@@ -259,6 +259,7 @@ class TrafficSimulator:
         logging.info("🚦 Starting IoT Traffic Simulation...")
         logging.info(f"📍 Monitoring {len(LOCATIONS)} locations")
         logging.info(f"⏰ Update interval: {INTERVAL} seconds")
+        logging.info(f"🌐 Backend URL: {BASE_URL}")
         logging.info("Press Ctrl+C to stop the simulation\n")
         
         batch_counter = 0
